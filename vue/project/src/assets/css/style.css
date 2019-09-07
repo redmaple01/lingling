@@ -1,0 +1,172 @@
+body, div, dl, dt, dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote，th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset{border:0;}
+address,caption, cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul,dl {list-style:none;}
+capation,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+html{
+  font-size: 17px;
+}
+
+body{
+  font-family: PingFangSC-Light;
+  font-size: 17px;
+  background: #f8f8f8;
+  color: #333;
+}
+
+input,textarea,select,option,button{
+  outline: none;
+ /* -webkit-appearance: none;*/   /*WebKit browsers */
+ /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/   /*WebKit browsers */
+
+}
+
+/*::-webkit-input-placeholder {  WebKit browsers 
+    color: #888; font-weight: 500 ;
+} */
+
+a,a.active{
+  text-decoration: none;
+}
+a{ color:#444; }
+
+
+/*加载icon*/
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont/iconfont.eot');
+  src: url('iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('iconfont/iconfont.woff') format('woff'),
+  url('iconfont/iconfont.ttf') format('truetype'),
+  url('iconfont/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*变量*/
+:root{
+
+  --c: #ee5859 ;  /*主色*/ 
+  --c2 : #fb8e8e ;  /*副主色*/
+
+}
+
+  .m-right{ float: right; }
+  .m-left{ float: left; }
+
+  .mt10{ margin-top: 10px; }
+
+
+      .m-btn{ width: 82%; margin-left: 9%; height: 42px; border:0; border-radius: 3px; background: var(--c);  color: #fff; font-size: .85em; margin-top: 20px; }
+
+/*页面切换动画样式*/
+.routerView {
+  position: absolute;
+  /*transition: all 1s ease-in 0.3s,ease-out 0.3s;*/
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /*background: transparent;*/
+/*    解决了ios下头脚拉动错误 */
+/*  overflow: hidden;
+  transform: translateZ(0px);*/
+  /*margin: 0 auto;*/
+/*  overflow-y: hidden;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;*/
+}
+
+/*向上进入*/
+.slide-up-enter-active, .slide-up-leave-active{
+    transition: all 0.3s
+}
+.slide-up-enter{
+    transform: translate3d(0, 100%, 0)
+}
+.slide-up-leave-to{
+    opacity: 0;
+}
+/*向下退出*/
+.slide-down-enter-active, .slide-down-leave-active{
+    transition: all 0.3s
+}
+.slide-down-enter{
+    opacity: 0;
+}
+.slide-down-leave-to{
+    transform: translate3d(0, 100%, 0)
+}
+
+/*渐入渐出*/
+.slide-show-enter-active, .slide-show-leave-active{
+    transition: all 0.3s
+}
+
+.slide-show-enter, .slide-show-leave-to{
+    opacity: 0;
+}
+
+/*向左进入*/
+.fold-left-enter-active {
+    transition: all 0.3s
+ }
+.fold-left-enter {
+    transform: translate3d(100%, 0, 0)
+}
+ .fold-left-leave-active {
+    transition: all 0.5s
+ }
+  .fold-left-leave-to {
+    opacity: 0;
+    /*transform: translate3d(0, 100%, 0)*/
+ }
+
+/*向右离开*/
+.fold-right-enter-active {
+    transition: all 0.5s
+ }
+ .fold-right-enter {
+    opacity: 0;
+    /*transform: translate3d(100%, 0, 0)*/
+ }
+ .fold-right-leave-active {
+    transition: all 0.3s
+ }
+ .fold-right-leave-to {
+    /*opacity: 0;*/
+    transform: translate3d(100%, 0, 0)
+ }
+
+
+
+/************************************   video   *********************************************/
+
+/*公共容器*/
+.container{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.container-bg{
+  background: #ffffff;
+}
+/* video 公共 v-main*/
+.v-main{
+  width: 94.7%;
+  overflow: hidden;
+  height: auto;
+  margin: auto;
+}

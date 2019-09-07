@@ -1,0 +1,69 @@
+---------------------------------------------------------------
+[2019-09-06T23:38:30+08:00] 127.0.0.1 GET ll.msq.cc/
+[运行时间：0.028424s] [吞吐率：35.18req/s] [内存消耗：359.23kb] [文件加载：45]
+[ info ] [ LANG ] /Users/miaosenxian/work/php/2020/lingling/thinkphp/lang/zh-cn.php
+[ error ] [0]类不存在: app\common\behavior\CORS[/Users/miaosenxian/work/php/2020/lingling/thinkphp/library/think/Container.php:442]
+---------------------------------------------------------------
+[2019-09-06T23:38:46+08:00] 127.0.0.1 GET ll.msq.cc/
+[运行时间：0.007908s] [吞吐率：126.45req/s] [内存消耗：234.32kb] [文件加载：48]
+[ info ] [ LANG ] /Users/miaosenxian/work/php/2020/lingling/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-09-06T23:38:56+08:00] 127.0.0.1 GET ll.msq.cc/
+[运行时间：0.011222s] [吞吐率：89.11req/s] [内存消耗：392.88kb] [文件加载：61]
+[ info ] [ LANG ] /Users/miaosenxian/work/php/2020/lingling/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'll.msq.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-09-06T23:39:28+08:00] 127.0.0.1 GET ll.msq.cc/
+[运行时间：0.002672s] [吞吐率：374.22req/s] [内存消耗：322.09kb] [文件加载：57]
+[ info ] [ LANG ] /Users/miaosenxian/work/php/2020/lingling/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'll.msq.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-09-06T23:39:29+08:00] 127.0.0.1 GET ll.msq.cc/
+[运行时间：0.002008s] [吞吐率：498.02req/s] [内存消耗：321.48kb] [文件加载：57]
+[ info ] [ LANG ] /Users/miaosenxian/work/php/2020/lingling/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'll.msq.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
